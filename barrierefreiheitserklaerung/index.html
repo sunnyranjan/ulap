@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+
+    <title>Ulap Quartier | Anlass und Ziel</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="EZ-Campus-Plus » Feed"
+      href="https://ulap.ag-urban.de/feed/"
+    />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="EZ-Campus-Plus » Kommentar-Feed"
+      href="https://ulap.ag-urban.de/comments/feed/"
+    />
+    <link
+      rel="stylesheet"
+      id="sweetalert2-css"
+      href="./vendor/sweetalert2.min.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="user-registration-general-css"
+      href="./vendor/user-registration.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="user-registration-smallscreen-css"
+      href="./vendor/user-registration-smallscreen.css"
+      media="only screen and (max-width: 768px)"
+    />
+    <link
+      rel="stylesheet"
+      id="user-registration-my-account-layout-css"
+      href="./vendor/my-account-layout.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="dashicons-css"
+      href="./vendor/dashicons.min.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="wp-block-library-css"
+      href="./vendor/style.min.css"
+      media="all"
+    />
+    <style id="wp-block-library-theme-inline-css">
+      #start-resizable-editor-section {
+        display: none;
+      }
+
+      .wp-block-audio figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+
+      .is-dark-theme .wp-block-audio figcaption {
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+
+      .wp-block-code {
+        font-family: Menlo, Consolas, monaco, monospace;
+        color: #1e1e1e;
+        padding: 0.8em 1em;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+
+      .wp-block-embed figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+
+      .is-dark-theme .wp-block-embed figcaption {
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+
+      .blocks-gallery-caption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+
+      .is-dark-theme .blocks-gallery-caption {
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+
+      .wp-block-image figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+
+      .is-dark-theme .wp-block-image figcaption {
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+
+      .wp-block-pullquote {
+        border-top: 4px solid;
+        border-bottom: 4px solid;
+        margin-bottom: 1.75em;
+        color: currentColor;
+      }
+
+      .wp-block-pullquote__citation,
+      .wp-block-pullquote cite,
+      .wp-block-pullquote footer {
+        color: currentColor;
+        text-transform: uppercase;
+        font-size: 0.8125em;
+        font-style: normal;
+      }
+
+      .wp-block-quote {
+        border-left: 0.25em solid;
+        margin: 0 0 1.75em;
+        padding-left: 1em;
+      }
+
+      .wp-block-quote cite,
+      .wp-block-quote footer {
+        color: currentColor;
+        font-size: 0.8125em;
+        position: relative;
+        font-style: normal;
+      }
+
+      .wp-block-quote.has-text-align-right {
+        border-left: none;
+        border-right: 0.25em solid;
+        padding-left: 0;
+        padding-right: 1em;
+      }
+
+      .wp-block-quote.has-text-align-center {
+        border: none;
+        padding-left: 0;
+      }
+
+      .wp-block-quote.is-large,
+      .wp-block-quote.is-style-large {
+        border: none;
+      }
+
+      .wp-block-search .wp-block-search__label {
+        font-weight: 700;
+      }
+
+      .wp-block-group.has-background {
+        padding: 1.25em 2.375em;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .wp-block-separator {
+        border: none;
+        border-bottom: 2px solid;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.4;
+      }
+
+      .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+        width: 100px;
+      }
+
+      .wp-block-separator.has-background:not(.is-style-dots) {
+        border-bottom: none;
+        height: 1px;
+      }
+
+      .wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
+        height: 2px;
+      }
+
+      .wp-block-table thead {
+        border-bottom: 3px solid;
+      }
+
+      .wp-block-table tfoot {
+        border-top: 3px solid;
+      }
+
+      .wp-block-table td,
+      .wp-block-table th {
+        padding: 0.5em;
+        border: 1px solid;
+        word-break: normal;
+      }
+
+      .wp-block-table figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+
+      .is-dark-theme .wp-block-table figcaption {
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+
+      .wp-block-video figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+
+      .is-dark-theme .wp-block-video figcaption {
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+
+      .wp-block-template-part.has-background {
+        padding: 1.25em 2.375em;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      #end-resizable-editor-section {
+        display: none;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      id="contact-form-7-css"
+      href="./vendor/styles.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="berlin_organization-css"
+      href="./vendor/berlin_organization.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="berlin_wordpress-css"
+      href="./vendor/berlin_wordpress.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="swiper-css"
+      href="./vendor/swiper.min.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="fontawesome-css"
+      href="./vendor/fontawesome.all.min.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="cookie-notice-front-css"
+      href="./vendor/front.min.css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      id="wp_edit_column-styles-css"
+      href="./vendor/column-style.css"
+      media="all"
+    />
+    <script src="./vendor/jquery.min.js" id="jquery-js"></script>
+    <script
+      src="./vendor/berlin_organization.js"
+      id="berlin_organization-js"
+    ></script>
+    <script src="./vendor/swiper.min.js" id="swiper-js"></script>
+    <script src="./vendor/shariff.min.js" id="shariff-js"></script>
+    <script src="./vendor/bo-foot-rebrush.js" id="bo-foot-rebrush-js"></script>
+    <script id="image_zoom-frontend-js-extra">
+      var IZ = {
+        options: {
+          lensShape: "square",
+          lensSize: 200,
+          lensBorderSize: 1,
+          lensBorderColour: "#ffffff",
+          borderRadius: 0,
+          cursor: "zoom-in",
+          zoomWindowWidth: 1200,
+          zoomWindowHeight: 800,
+          zoomWindowOffsetx: 10,
+          borderSize: 1,
+          borderColour: "#888888",
+          zoomWindowShadow: 4,
+          lensFadeIn: 500,
+          lensFadeOut: 500,
+          zoomWindowFadeIn: 500,
+          zoomWindowFadeOut: 500,
+          easingAmount: 12,
+          zoomWindowPosition: 2,
+          lensOverlay: false,
+          responsive: true,
+          responsiveThreshold: 800,
+          scrollZoom: true,
+          adjustZoomWindowHeight: false,
+          customText: "",
+          customTextSize: 12,
+          customTextColor: "#cccccc",
+          customTextVAlign: "bottom",
+          customTextAlign: "right",
+        },
+        with_woocommerce: "0",
+        exchange_thumbnails: "0",
+        enable_mobile: "1",
+        woo_categories: "0",
+        force_attachments: "1",
+        enable_lightbox_zoom: "0",
+        custom_class: ".gallery img",
+        flexslider: "",
+        owl: "",
+        flickity: "",
+        swiper: "",
+        slick: "",
+        huge_it_gallery: "",
+        search_filter_pro: "0",
+        remove_lightbox_thumbnails: "0",
+        remove_lightbox: "1",
+        woo_slider: "0",
+      };
+    </script>
+    <script
+      src="./vendor/image_zoom-frontend.min.js"
+      id="image_zoom-frontend-js"
+    ></script>
+    <script id="wp-wpso-front-scripts-js-extra">
+      var wpso = {
+        ajaxurl: "https:\/\/ulap.ag-urban.de\/wp-admin\/admin-ajax.php",
+        user_items: [],
+      };
+    </script>
+    <script
+      src="./vendor/front-scripts.js"
+      id="wp-wpso-front-scripts-js"
+    ></script>
+    <link rel="https://api.w.org/" href="https://ulap.ag-urban.de/wp-json/" />
+    <link
+      rel="alternate"
+      type="application/json"
+      href="https://ulap.ag-urban.de/wp-json/wp/v2/pages/5"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="https://ulap.ag-urban.de/xmlrpc.php?rsd"
+    />
+    <link
+      rel="wlwmanifest"
+      type="application/wlwmanifest+xml"
+      href="https://ulap.ag-urban.de/wp-includes/wlwmanifest.xml"
+    />
+    <link rel="canonical" href="https://ulap.ag-urban.de/anlass-und-ziel/" />
+    <link rel="shortlink" href="https://ulap.ag-urban.de/?p=5" />
+    <link
+      rel="alternate"
+      type="application/json+oembed"
+      href="https://ulap.ag-urban.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fulap.ag-urban.de%2Fanlass-und-ziel%2F"
+    />
+    <link
+      rel="alternate"
+      type="text/xml+oembed"
+      href="https://ulap.ag-urban.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fulap.ag-urban.de%2Fanlass-und-ziel%2F&amp;format=xml"
+    />
+    <style>
+      img.zoooom,
+      .zoooom img {
+        padding: 0 !important;
+      }
+
+      .zoomLens[style],
+      .zoomContainer[style] {
+        overflow: visible !important;
+      }
+
+      .gallery img:hover,
+      img.zoooom:hover,
+      .zoooom img:hover,
+      .mp_product_image_single:hover,
+      a.zoomGallery img:hover,
+      .portfolio_images img:hover,
+      .single-fluxus_portfolio .project-image img:hover,
+      .attachment-product_page_image:hover,
+      .attachment-shop_single:hover {
+        cursor: -webkit-zoom-in;
+        cursor: -moz-zoom-in;
+        cursor: zoom-in;
+      }
+    </style>
+    <script></script>
+    <link
+      rel="icon"
+      href="https://ulap.ag-urban.de/wp-content/uploads/2021/04/cropped-logo_berlin_brbg_tor-1-1-32x32.jpg"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      href="https://ulap.ag-urban.de/wp-content/uploads/2021/04/cropped-logo_berlin_brbg_tor-1-1-192x192.jpg"
+      sizes="192x192"
+    />
+    <link
+      rel="apple-touch-icon"
+      href="https://ulap.ag-urban.de/wp-content/uploads/2021/04/cropped-logo_berlin_brbg_tor-1-1-180x180.jpg"
+    />
+    <meta
+      name="msapplication-TileImage"
+      content="https://ulap.ag-urban.de/wp-content/uploads/2021/04/cropped-logo_berlin_brbg_tor-1-1-270x270.jpg"
+    />
+    <style id="wp-custom-css">
+      .rand {
+        border: 2px solid #000 !important;
+      }
+
+      .entry-title {
+        font-weight: normal;
+      }
+
+      /* body:not(.kiekma.logged-in) .image__image:after { display: none; }
+
+body:not(.kiekma.logged-in) .image__image>img { display: none; }
+
+body:not(.kiekma.logged-in) .image__image { cursor: default !important; } 
+*/
+      /* 
+body:not(logged-in) .wech {display: none; }
+*/
+
+      .testimonial {
+        text-align: center;
+      }
+
+      .testimonial .textbox .quote {
+        font-size: 1.3em;
+        color: #e40422;
+      }
+
+      .modul-testimonial {
+        margin-left: 10%;
+        margin-right: 15%;
+      }
+
+      .modul-testimonial .textbox {
+        font-size: 0.8em;
+        border: 1px solid;
+      }
+
+      .form-submit input.submit {
+        min-height: 43px;
+        margin-bottom: 0;
+        width: auto;
+        box-shadow: none;
+        border-radius: 0px;
+        text-decoration: none;
+        padding: 10px 16px;
+        font-size: 1em;
+        line-height: 1.2;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        cursor: pointer;
+        overflow: visible;
+        background-color: #fff;
+        color: #000;
+        border: 2px solid #000;
+        transition: background-color 0.2s ease-out;
+        position: relative;
+        padding-right: 20px;
+      }
+
+      .image__copyright {
+        font-size: 0.9em;
+      }
+
+      .form-submit input.submit:after {
+        background: #e40422;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        line-height: 2em;
+        width: 43px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .form-submit input.submit:after {
+        content: "\f061";
+        font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", FontAwesome;
+        font-weight: 700;
+        margin-left: 0.5em;
+        display: inline-block;
+        vertical-align: baseline;
+        color: #fff;
+        font-size: 18px;
+      }
+
+      /* #content-footer .content-footer__links>ul>li, #content-footer .content-footer__links>ul>li {
+    width: 40%;
+    margin-left: 3%;
+    max-width: 600px;
+}
+*/
+
+      .menu > ul > li {
+        width: 600px;
+      }
+
+      .gallery_preview {
+        width: 420px;
+      }
+    </style>
+  </head>
+
+  <body
+    class="page-template-default page page-id-5 kiekma user-registration-page no-sidebar cookies-set cookies-accepted"
+    style="padding-top: 0px"
+  >
+    <div id="page-wrapper" class="screendefault organization">
+      <header id="header" class="kiekma">
+        <!-- Portallogo Berlin Brand -->
+        <div class="header__row-portalbrand">
+          <div class="logo">
+            <a href="https://www.berlin.de/">
+              <img
+                class="logo"
+                title="Link führt zur Startseite von Berlin.de"
+                alt="Bild zeigt: Berlin.de Logo"
+                src="./vendor/logo_berlin_m_srgb.svg"
+              />
+            </a>
+          </div>
+        </div>
+
+        <div class="header__row-pageheader">
+          <!-- Vertical Logo -->
+          <div class="pageheader__logo">
+            <div class="textlogo">
+              <a href="https://ulap.ag-urban.de/" rel="home">
+                <span class="title">Wettbewerblicher Dialog</span>
+                <span class="">ULAP-Quartier</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quicklinks -->
+          <nav class="pageheader__quicklinks" aria-label="Bereichsnavigation">
+            <ul id="menu-menue" class="">
+              <li
+                id="menu-item-anlass-und-ziel"
+                class="menu-item menu-item-type-post_type menu-item-object-page active"
+              >
+                <a href="https://ulap.ag-urban.de/anlass-und-ziel/"
+                  >Anlass und Ziel</a
+                >
+              </li>
+              <li
+                id="menu-item-aufgabenstellung"
+                class="menu-item menu-item-type-post_type menu-item-object-page"
+              >
+                <a href="https://ulap.ag-urban.de/aufgabenstellung/">
+                  Aufgabenstellung
+                </a>
+              </li>
+              <li
+                id="menu-item-verfahren"
+                class="menu-item menu-item-type-custom menu-item-object-custom"
+              >
+                <a href="https://ulap.ag-urban.de/verfahren">Verfahren</a>
+              </li>
+              <li
+                id="menu-item-beitraege"
+                class="menu-item menu-item-type-post_type menu-item-object-page"
+              >
+                <a href="https://ulap.ag-urban.de/beitraege/">Beiträge</a>
+              </li>
+              <li
+                id="menu-item-ergebnis"
+                class="menu-item menu-item-type-post_type menu-item-object-page"
+              >
+                <a href="https://ulap.ag-urban.de/ergebnis/">Ergebnis</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- ### Service button area with different overlays ## -->
+
+          <div class="pageheader__services">
+            <!-- Accessability button and overlay -->
+
+            <div
+              id="servicebuttonAccessibility"
+              class="service-button-overlay js-service-button-overlay accessibility"
+            >
+              <div class="service-button-overlay__button">
+                <button
+                  type="button"
+                  class="icon-button js-button-overlay-open"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <i
+                    class="icon fas fa-universal-access"
+                    aria-hidden="true"
+                  ></i>
+                  <span class="aural">Öffnen: Barrierefreiheit</span>
+                  <span class="text">Barrierefrei</span>
+                </button>
+              </div>
+              <div
+                class="service-button-overlay__overlay overlay js-overlay-container"
+                aria-modal="true"
+                hidden="hidden"
+                style="transition: all 200ms ease-in-out 0s"
+              >
+                <div class="overlay__header">
+                  <h2 class="heading"><span>Barrierefreiheit</span></h2>
+                  <button
+                    type="button"
+                    class="close-button js-button-overlay-close"
+                  >
+                    <i class="fas fa-times" aria-hidden="true"></i>
+                    <span class="aural">Schließen: Barrierefreiheit </span>
+                  </button>
+                </div>
+                <div class="overlay__body">
+                  <h3>Wie barrierefrei ist diese Webseite?</h3>
+                  <p>
+                    <a
+                      href="https://ulap.ag-urban.de/barrierefreiheitserklaerung/"
+                      >Erklärung zur digitalen Barrierefreiheit</a
+                    >
+                  </p>
+
+                  <h3>
+                    Wen können Sie bei Anmerkungen oder Fragen zur digitalen
+                    Barrierefreiheit (Feedbackoption) kontaktieren?
+                  </h3>
+                  <p>
+                    Name: Anne Berndt<br />
+                    Email:
+                    <a href="mailto:internetredaktion@sensw.berlin.de"
+                      >internetredaktion@sensw.berlin.de</a
+                    >
+                  </p>
+
+                  <h3>
+                    Wo gibt es zusätzliche Informationen zur Barrierefreiheit im
+                    Land Berlin?
+                  </h3>
+                  <p>
+                    <a
+                      href="https://www.berlin.de/moderne-verwaltung/barrierefreie-it/"
+                      >Barrierefreie Informations- und Kommunikationstechnik
+                      (IKT)</a
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Search button and overlay -->
+
+            <div
+              id="servicebuttonSearch"
+              class="service-button-overlay js-service-button-overlay search fullwidth"
+            >
+              <div class="service-button-overlay__button">
+                <button
+                  type="button"
+                  class="icon-button js-button-overlay-open"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <i class="icon fa fa-search" aria-hidden="true"></i>
+                  <span class="aural">Öffnen: Suche</span>
+                  <span class="text">Suche</span>
+                </button>
+              </div>
+              <div
+                class="service-button-overlay__overlay overlay js-overlay-container"
+                aria-modal="true"
+                hidden="hidden"
+                style="transition: all 200ms ease-in-out 0s"
+              >
+                <div class="overlay__header">
+                  <h2 class="heading"><span class="aural">Suche</span></h2>
+                  <button
+                    type="button"
+                    class="close-button js-button-overlay-close"
+                  >
+                    <i class="fas fa-times" aria-hidden="true"></i>
+                    <span class="aural">Schließen: Suche </span>
+                  </button>
+                </div>
+                <div class="overlay__body">
+                  <div class="search-container">
+                    <form
+                      class="search-form berlin-search-form"
+                      action="https://ulap.ag-urban.de/"
+                      method="get"
+                    >
+                      <label for="searchFormInput_q"
+                        >Suche auf der Internetseite "EZ-Campus-Plus"</label
+                      >
+                      <div class="form-group">
+                        <input
+                          name="s"
+                          class="form-control"
+                          id="searchFormInput_q"
+                          placeholder="Suchbegriff"
+                          value=""
+                        />
+                        <button type="submit" class="button">
+                          <i class="fas fa-search" aria-hidden="true"></i>
+                          <span>Suchen</span>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Hamburger navigation button and overlay -->
+
+            <div
+              id="servicebuttonMenu"
+              class="service-button-overlay js-service-button-overlay menu"
+            >
+              <div class="service-button-overlay__button">
+                <button
+                  type="button"
+                  class="icon-button js-button-overlay-open"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  <i class="icon fa fa-bars" aria-hidden="true"></i>
+                  <span class="aural">Öffnen: Menü</span>
+                  <span class="text">Menü</span>
+                </button>
+              </div>
+              <div
+                class="service-button-overlay__overlay overlay js-overlay-container"
+                aria-modal="true"
+                hidden="hidden"
+                style="transition: all 200ms ease-in-out 0s"
+              >
+                <div class="overlay__header">
+                  <h2 class="heading"><span>Menü</span></h2>
+                  <button
+                    type="button"
+                    class="close-button js-button-overlay-close"
+                  >
+                    <i class="fas fa-times" aria-hidden="true"></i>
+                    <span class="aural">Schließen: Menü </span>
+                  </button>
+                </div>
+                <div class="overlay__body">
+                  <nav id="navigation-primary" class="js-navigation-primary">
+                    <div class="tree-wrapper js-navigation-tree-wrapper">
+                      <h3 class="aural">Seitennavigation</h3>
+                      <ul class="navigation-tree tree__root">
+                        <li
+                          id="menu-item-14"
+                          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-14"
+                        >
+                          <a
+                            href="https://ulap.ag-urban.de/"
+                            aria-current="page"
+                            >Startseite</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-side-anlass-und-ziel"
+                          class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item menu-item-3740 active"
+                        >
+                          <a href="https://ulap.ag-urban.de/anlass-und-ziel"
+                            >Anlass und Ziel</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-5073"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5073"
+                        >
+                          <a href="https://ulap.ag-urban.de/aufgabenstellung"
+                            >Aufgabenstellung</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-5037"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5037"
+                        >
+                          <a href="https://ulap.ag-urban.de/verfahren"
+                            >Verfahren</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-4265"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4265"
+                        >
+                          <a href="https://ulap.ag-urban.de/beitraege"
+                            >Beiträge</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-3270"
+                          class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3270"
+                        >
+                          <a href="https://ulap.ag-urban.de/ergebnis"
+                            >Ergebnis</a
+                          >
+                        </li>
+
+                        <li
+                          id="menu-item-371"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-371"
+                        >
+                          <a href="https://ulap.ag-urban.de/hinweise/"
+                            >Hinweise zur Benutzung</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-366"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-366"
+                        >
+                          <a href="https://ulap.ag-urban.de/impressum/"
+                            >Impressum</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-61"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-61"
+                        >
+                          <a
+                            href="https://ulap.ag-urban.de/datenschutzerklaerung/"
+                            >Datenschutzerklärung</a
+                          >
+                        </li>
+                        <li
+                          id="menu-item-1219"
+                          class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1219"
+                        >
+                          <a
+                            href="https://ulap.ag-urban.de/barrierefreiheitserklaerung/"
+                            >Digitale Barrierefreiheit</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div id="layout-grid" role="main" tabindex="-1">
+        <div id="layout-grid__area--contentheader">
+          <div id="content-header">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+              <h2 class="aural">You are here:</h2>
+              <ol>
+                <li><a href="https://ulap.ag-urban.de/">Start</a></li>
+                <li>
+                  <span class="active" aria-current="page"
+                    >Anlass und Ziel</span
+                  >
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+
+        <div id="layout-grid__area--leftcolumn"></div>
+
+        <div id="layout-grid__area--herounit">
+          <h1 class="title entry-title">Anlass und Ziel</h1>
+        </div>
+
+        <div id="layout-grid__area--maincontent">
+          <div>
+            <div class="image">
+              <img
+                loading="lazy"
+                class="alignleft wp-image-5009"
+                src="./vendor/lufbild_ulap.jpg"
+                alt="Ausschnitt aus dem Luftbild Berlins mit Kennzeichnung des Plangebietes"
+                width="500"
+                height="500"
+                srcset="
+                  ./vendor/lufbild_ulap.jpg 400w,
+                  ./vendor/lufbild_ulap.jpg 150w,
+                  ./vendor/lufbild_ulap.jpg 768w,
+                  ./vendor/lufbild_ulap.jpg 986w
+                "
+                sizes="(max-width: 500px) 100vw, 500px"
+              />
+            </div>
+            <div class="image__copyright" style="max-width: 500px">
+              Luftbild mit Kennzeichnung des Plangebietes | Quelle:
+              <span class="standard">Geoportal Berlin / </span>
+              bearbeitet Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen
+            </div>
+          </div>
+          <p>
+            In einer einzigartigen Lage direkt am Hauptbahnhof, am Treffpunkt
+            von Regierungsviertel, Moabit, der Europacity und in der Nähe der
+            historischen Stadtteile Friedrich-Wilhelm-Stadt und der
+            Oranienburger Vorstadt liegt das Plangebiet als eine der wenigen
+            noch nicht entwickelten landeseigenen Flächen im Zentrum Berlins mit
+            herausragenden Potenzialen für ein neues Stadtquartier. Die
+            grundsätzliche städtebauliche Inkonsistenz, der Leerstand des
+            ehemaligen Gebäudes des Landeslabors Berlin-Brandenburg und eine
+            unzureichende Grundstücksausnutzung geben den Anlass diese große
+            städtebauliche Potential zu entwickeln.
+          </p>
+          <p>
+            Auf den Liegenschaften der „Invalidenstraße 57-60/Alt-Moabit 5“ soll
+            das ULAP-Quartier entstehen: Ein urbaner Nutzungsmix aus
+            Polizeistandort, Schule, Wohnen, Verwaltung, großflächigem
+            Einzelhandel und öffentlichkeitsnahen Nutzungen im EG. Durch
+            räumliche Querungsmöglichkeiten sollen neue Qualitäten für den Ort
+            selbst und seine Umgebung geschaffen werden sowie die bisherige
+            Undurchlässigkeit des Quartiers aufgehoben werden. Im Fokus der
+            städtebaulichen Entwicklung steht das „lebendige Quartier“. Die
+            politische Idealvorstellung einer innerstädtischen Nutzungsmischung
+            von 50% Büro/Verwaltung, 40% Wohnen und Wohnfolgeeinrichtung und 10%
+            Gewerbe soll dabei als grobe Orientierung dienen. Es soll ein
+            belebter Ort entstehen, der in sich funktioniert, eine Bereicherung
+            für die angrenzenden Quartiere darstellt und seiner zentralen
+            innerstädtischen Lage gerecht wird. Der Bezirk Berlin-Mitte, die
+            Senatsverwaltung für Bildung, Familie und Jugend, die BIM Berliner
+            Immobilienmanagement GmbH, eine kommunale Wohnungsbaugesellschaft
+            und ein privater Bauherr, ALDI-Nord, möchten in Kooperation mit der
+            Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen das neue
+            Quartier gemeinsam entwickeln. Ziel des Verfahrens ist die
+            Entwicklung eines städtebaulichen Rahmenplans als Grundlage für den
+            anschließenden Bebauungsplan und die weitere Planung auf dem Areal.
+          </p>
+
+          <p>
+            <a
+              class="button wp-block-button__link"
+              style="color: #000"
+              href="https://ulap.ag-urban.de/aufgabenstellung/"
+              >Weiter zu “Aufgabenstellung”</a
+            >
+          </p>
+        </div>
+
+        <div
+          id="layout-grid__area--marginal"
+          class="marginal"
+          role="complementary"
+        ></div>
+      </div>
+      <div class="layout-grid">
+        <div id="layout-grid__area--contentfooter">
+          <div id="content-footer" role="contentinfo">
+            <div class="content-footer__brand"></div>
+            <a
+              class="to-top"
+              href="https://ulap.ag-urban.de/aufgabenstellung/#top"
+              >Zum Seitenanfang</a
+            >
+
+            <div class="content-footer__links">
+              <ul class="js-collapse-palm">
+                <li class="initial-open">
+                  <h3 class="heading js-trigger">Allgemeine Links</h3>
+                  <ul>
+                    <li
+                      id="menu-item-3744"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3744"
+                    >
+                      <a href="https://ulap.ag-urban.de/impressum/"
+                        >Impressum</a
+                      >
+                    </li>
+                    <li
+                      id="menu-item-3945"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-3945"
+                    >
+                      <a href="https://ulap.ag-urban.de/datenschutzerklaerung/"
+                        >Datenschutzerklärung</a
+                      >
+                    </li>
+                    <li
+                      id="menu-item-3743"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3743"
+                    >
+                      <a
+                        href="https://ulap.ag-urban.de/barrierefreiheitserklaerung/"
+                        >Digitale Barrierefreiheit</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+
+                <li>
+                  <h3 class="heading js-trigger">Site-Links</h3>
+                  <ul>
+                    <li
+                      id="menu-item-startseite"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home active"
+                      aria-current="page"
+                    >
+                      <a href="https://ulap.ag-urban.de">Startseite</a>
+                    </li>
+                    <li
+                      id="menu-item-anlass-und-ziel"
+                      class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-5 current_page_item menu-item-4080 active"
+                    >
+                      <a
+                        href="https://ulap.ag-urban.de/anlass-und-ziel"
+                        aria-current="page"
+                        >Anlass und Ziel</a
+                      >
+                    </li>
+                    <li
+                      id="menu-item-5077"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5077"
+                    >
+                      <a href="https://ulap.ag-urban.de/aufgabenstellung"
+                        >Aufgabenstellung</a
+                      >
+                    </li>
+                    <li
+                      id="menu-item-5038"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5038"
+                    >
+                      <a href="https://ulap.ag-urban.de/verfahren">Verfahren</a>
+                    </li>
+                    <li
+                      id="menu-item-4270"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4270"
+                    >
+                      <a href="https://ulap.ag-urban.de/beitraege/">Beiträge</a>
+                    </li>
+
+                    <li
+                      id="menu-item-4271"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4271"
+                    >
+                      <a href="https://ulap.ag-urban.de/ergebnis/">Ergebnis</a>
+                    </li>
+                    <li
+                      id="menu-item-4083"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4083"
+                    >
+                      <a href="https://ulap.ag-urban.de/hinweise/">
+                        Hinweise zur Benutzung
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+
+                <!-- Footer-Menu-_3 -->
+                <li>
+                  <h3 class="heading js-trigger">Siegerentwurf</h3>
+                  <ul>
+                    <li>
+                      <a href="https://ulap.ag-urban.de/beitrag-1007"
+                        >Team ISSS und bauchplan</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <!-- Footer-Menu-_3 Ende -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer id="footer" class="kiekma">
+        <!-- portalfooter logo -->
+        <div class="footer__brand">
+          <div class="image__image">
+            <a
+              href="https://www.berlin.de/"
+              title="Link führt zur Startseite von Berlin.de"
+            >
+              <img
+                src="./vendor/logo_berlin_m_negativ.svg"
+                alt="Link zu: Link führt zur Startseite von Berlin.de"
+              />
+            </a>
+          </div>
+        </div>
+        <!-- portalfooter links -->
+        <nav class="footer__links" aria-label="Weitere Bereiche auf Berlin.de">
+          <ul class="js-collapse-palm">
+            <li>
+              <!--FLEX BEGIN: Footerlinklist-->
+              <h3 class="heading js-trigger">Service</h3>
+              <ul>
+                <li>
+                  <a
+                    href="https://service.berlin.de/onlineverfahren-onlinedienstleistungen/"
+                    >Online-Dienstleistungen</a
+                  >
+                </li>
+                <li>
+                  <a href="https://service.berlin.de/app/">Service-App</a>
+                </li>
+                <li>
+                  <a href="https://service.berlin.de/terminvereinbarung/"
+                    >Termin vereinbaren</a
+                  >
+                </li>
+                <li>
+                  <a href="https://service.berlin.de/buergertelefon/"
+                    >Bürgertelefon 115</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.berlin.de/polizei/service/so-erreichen-sie-uns/artikel.532842.php"
+                    >Notdienste</a
+                  >
+                </li>
+                <li><a href="https://www.berlin.de/ea/">Gewerbeservice</a></li>
+              </ul>
+              <!--FLEX END: Footerlinklist-->
+            </li>
+            <li>
+              <!--FLEX BEGIN: Footerlinklist-->
+              <h3 class="heading js-trigger">Behörden</h3>
+              <ul>
+                <li>
+                  <a href="https://service.berlin.de/behoerden/"
+                    >Behörden A-Z</a
+                  >
+                </li>
+                <li>
+                  <a href="https://service.berlin.de/senatsverwaltungen/"
+                    >Senatsverwaltungen</a
+                  >
+                </li>
+                <li>
+                  <a href="https://service.berlin.de/bezirksaemter/"
+                    >Bezirksämter</a
+                  >
+                </li>
+                <li>
+                  <a href="https://service.berlin.de/standorte/buergeraemter/"
+                    >Bürgerämter</a
+                  >
+                </li>
+                <li>
+                  <a href="https://service.berlin.de/jobcenter/">Jobcenter</a>
+                </li>
+                <li>
+                  <a href="https://www.berlin.de/einwanderung/"
+                    >Einwanderungsamt</a
+                  >
+                </li>
+              </ul>
+              <!--FLEX END: Footerlinklist-->
+            </li>
+            <li>
+              <!--FLEX BEGIN: Footerlinklist-->
+              <h3 class="heading js-trigger">Politik &amp; Verwaltung</h3>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.berlin.de/rbmskzl/regierender-buergermeister/senat/"
+                    >Landesregierung</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.berlin.de/karriereportal/"
+                    >Karriere im Land Berlin</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://mein.berlin.de/"
+                    target="_blank"
+                    title=" (Öffnet in neuem Fenster)"
+                    >Bürgerbeteiligung</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://daten.berlin.de/"
+                    target="_blank"
+                    title=" (Öffnet in neuem Fenster)"
+                    >Open Data</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.berlin.de/vergabeplattform/">Vergaben</a>
+                </li>
+                <li>
+                  <a href="https://ulap.ag-urban.de/buergeraktiv/">Ehrenamt</a>
+                </li>
+              </ul>
+              <!--FLEX END: Footerlinklist-->
+            </li>
+            <li>
+              <!--FLEX BEGIN: Footerlinklist-->
+              <h3 class="heading js-trigger">Aktuelles</h3>
+              <ul>
+                <li><a href="https://www.berlin.de/corona/">Covid-19</a></li>
+                <li>
+                  <a href="https://www.berlin.de/presse/">Pressemitteilungen</a>
+                </li>
+                <li>
+                  <a href="https://www.berlin.de/polizei/polizeimeldungen/"
+                    >Polizeimeldungen</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.berlin.de/land/kalender/"
+                    >Veranstaltungen</a
+                  >
+                </li>
+              </ul>
+              <!--FLEX END: Footerlinklist-->
+            </li>
+            <li>
+              <!--FLEX BEGIN: Footerlinklist-->
+              <h3 class="heading js-trigger">Themen</h3>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.berlin.de/sen/uvk/verkehr/mobilitaetswende/verkehr-888873.php"
+                    >Mobilitätswende</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.berlin.de/moderne-verwaltung/"
+                    >Moderne Verwaltung</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.berlin.de/mauer/">Berliner Mauer</a>
+                </li>
+                <li>
+                  <a href="https://www.berlin.de/berlin-im-ueberblick/"
+                    >Berlin im Überblick</a
+                  >
+                </li>
+              </ul>
+              <!--FLEX END: Footerlinklist-->
+            </li>
+            <li>
+              <!--FLEX BEGIN: Footerlinklist-->
+              <h3 class="heading js-trigger">Weitere Informationen</h3>
+              <ul>
+                <li>
+                  <a href="https://www.berlin.de/kultur-und-tickets/"
+                    >Kultur &amp; Ausgehen</a
+                  >
+                </li>
+                <li>
+                  <a href="https://www.berlin.de/tourismus/">Tourismus</a>
+                </li>
+                <li>
+                  <a href="https://www.berlin.de/wirtschaft/">Wirtschaft</a>
+                </li>
+                <li><a href="https://www.berlin.de/special/">Lifestyle</a></li>
+                <li>
+                  <a href="https://www.berlin.de/adressen/">BerlinFinder</a>
+                </li>
+                <li>
+                  <a href="https://www.berlin.de/stadtplan/">Stadtplan</a>
+                </li>
+              </ul>
+              <!--FLEX END: Footerlinklist-->
+            </li>
+          </ul>
+        </nav>
+
+        <div class="footer__claim">
+          <p>
+            Berlin.de ist ein Angebot des Landes Berlin und der BerlinOnline
+            Stadtportal GmbH &amp; Co. KG. Weitere Informationen hierzu finden
+            Sie im
+            <a href="https://www.berlin.de/wir-ueber-uns-be/impressum/"
+              >Impressum</a
+            >.
+          </p>
+        </div>
+      </footer>
+    </div>
+    <!-- #page -->
+
+    <div id="ays_noscript" style="display: none">
+      <p>
+        Javascript ist nicht aktiviert. Javascript ist für die ordnungsgemäße
+        Anzeige und Funktionalität der Seiten notwendig. Bitte aktivieren Sie
+        Javascript und erneuern die Anzeige (Taste F5).
+      </p>
+    </div>
+    <noscript>
+      <style>
+        #ays_noscript {
+          display: flex !important;
+        }
+
+        html {
+          pointer-events: none;
+          user-select: none;
+        }
+      </style>
+    </noscript>
+    <script
+      src="./vendor/regenerator-runtime.min.js"
+      id="regenerator-runtime-js"
+    ></script>
+    <script src="./vendor/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+    <script id="contact-form-7-js-extra">
+      var wpcf7 = {
+        api: {
+          root: "https:\/\/ulap.ag-urban.de\/wp-json\/",
+          namespace: "contact-form-7\/v1",
+        },
+      };
+    </script>
+    <script src="./vendor/index.js" id="contact-form-7-js"></script>
+
+    <span id="js-is_palm"></span>
+    <span id="js-is_tablet"></span>
+
+    <object
+      id="__symantecPKIClientMessenger"
+      data-supports-flavor-configuration="true"
+      data-extension-version="0.5.0.109"
+      style="display: none"
+    ></object
+    ><span id="__symantecPKIClientDetector" style="display: none"
+      >__PRESENT</span
+    >
+  </body>
+</html>
