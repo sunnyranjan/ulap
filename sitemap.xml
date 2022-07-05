@@ -5,169 +5,169 @@
        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
-		<loc>https://ulap.ag-urban.de/</loc>
+		<loc>https://ulap-quartier.berlin.de/</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.00</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/beitraege</loc>
+		<loc>https://ulap-quartier.berlin.de/beitraege</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1.00</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/beitraege/</loc>
+		<loc>https://ulap-quartier.berlin.de/beitraege/</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.93</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/anlass-und-ziel</loc>
+		<loc>https://ulap-quartier.berlin.de/anlass-und-ziel</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.93</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/aufgabenstellung</loc>
+		<loc>https://ulap-quartier.berlin.de/aufgabenstellung</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.93</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/verfahren</loc>
+		<loc>https://ulap-quartier.berlin.de/verfahren</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.93</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/gremium</loc>
+		<loc>https://ulap-quartier.berlin.de/gremium</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.93</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/ergebnis</loc>
+		<loc>https://ulap-quartier.berlin.de/ergebnis</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.93</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/ergebnis/</loc>
+		<loc>https://ulap-quartier.berlin.de/ergebnis/</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.92</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/barrierefreiheitserklaerung/</loc>
+		<loc>https://ulap-quartier.berlin.de/barrierefreiheitserklaerung/</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.92</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/hinweise/</loc>
+		<loc>https://ulap-quartier.berlin.de/hinweise/</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.92</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/impressum/</loc>
+		<loc>https://ulap-quartier.berlin.de/impressum/</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.91</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/datenschutzerklaerung/</loc>
+		<loc>https://ulap-quartier.berlin.de/datenschutzerklaerung/</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.91</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/beitraege/dialogrunde/runde-3/team-1/</loc>
+		<loc>https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-3/team-1/</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.90</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/beitraege/dialogrunde/runde-3/team-1//</loc>
+		<loc>https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-3/team-1//</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.58</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/aufgabenstellung/</loc>
+		<loc>https://ulap-quartier.berlin.de/aufgabenstellung/</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.55</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/anlass-und-ziel/</loc>
+		<loc>https://ulap-quartier.berlin.de/anlass-und-ziel/</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>0.46</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/beitraege/dialogrunde/runde-3/team-1</loc>
+		<loc>https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-3/team-1</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.31</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/beitraege/dialogrunde/runde-2/team-1</loc>
+		<loc>https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-2/team-1</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.31</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/beitraege/dialogrunde/runde-2/team-2</loc>
+		<loc>https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-2/team-2</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.31</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/beitraege/dialogrunde/runde-2/team-3</loc>
+		<loc>https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-2/team-3</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.31</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/beitraege/dialogrunde/runde-1/team-1</loc>
+		<loc>https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-1/team-1</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.31</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/beitraege/dialogrunde/runde-1/team-2</loc>
+		<loc>https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-1/team-2</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.31</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/beitraege/dialogrunde/runde-1/team-3</loc>
+		<loc>https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-1/team-3</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.31</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/beitraege/dialogrunde/runde-1/team-4</loc>
+		<loc>https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-1/team-4</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.30</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/beitraege/dialogrunde/runde-1/team-5</loc>
+		<loc>https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-1/team-5</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.30</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/gremium/</loc>
+		<loc>https://ulap-quartier.berlin.de/gremium/</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.23</priority>
 	</url>
 	<url>
-		<loc>https://ulap.ag-urban.de/verfahren/</loc>
+		<loc>https://ulap-quartier.berlin.de/verfahren/</loc>
 		<lastmod>2022-06-29T08:26:24+00:00</lastmod>
 		<changefreq>weekly</changefreq>
 		<priority>0.22</priority>
