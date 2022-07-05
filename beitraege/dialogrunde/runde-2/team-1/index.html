@@ -16,17 +16,170 @@
     <title>Ulap Quartier | Beitrag | Runde 2 | Team 1</title>
 
     <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Ulap Quartier » Beitrag 1007 – 1. Preis Kommentar-Feed"
+      href="https://ulap.ag-urban.de/beitraege/dialogrunde/runde-3/team-1//feed/"
+    />
+    <link
+      rel="stylesheet"
+      id="sweetalert2-css"
+      href="./vendor/sweetalert2.min.css"
+      media="all"
+    />
+
+    <link
       rel="stylesheet"
       id="dashicons-css"
       href="./vendor/dashicons.min.css"
       media="all"
     />
-    <style>
-      a.cboxElement {
+
+    <style id="wp-block-library-theme-inline-css">
+      #start-resizable-editor-section {
+        display: none;
+      }
+      .wp-block-audio figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-audio figcaption {
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+      .wp-block-code {
+        font-family: Menlo, Consolas, monaco, monospace;
+        color: #1e1e1e;
+        padding: 0.8em 1em;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+      }
+      .wp-block-embed figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-embed figcaption {
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+      .blocks-gallery-caption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .blocks-gallery-caption {
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+      .wp-block-image figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-image figcaption {
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+      .wp-block-pullquote {
+        border-top: 4px solid;
+        border-bottom: 4px solid;
+        margin-bottom: 1.75em;
+        color: currentColor;
+      }
+      .wp-block-pullquote__citation,
+      .wp-block-pullquote cite,
+      .wp-block-pullquote footer {
+        color: currentColor;
+        text-transform: uppercase;
+        font-size: 0.8125em;
+        font-style: normal;
+      }
+      .wp-block-quote {
+        border-left: 0.25em solid;
+        margin: 0 0 1.75em;
+        padding-left: 1em;
+      }
+      .wp-block-quote cite,
+      .wp-block-quote footer {
+        color: currentColor;
+        font-size: 0.8125em;
+        position: relative;
+        font-style: normal;
+      }
+      .wp-block-quote.has-text-align-right {
+        border-left: none;
+        border-right: 0.25em solid;
+        padding-left: 0;
+        padding-right: 1em;
+      }
+      .wp-block-quote.has-text-align-center {
+        border: none;
         padding-left: 0;
       }
+      .wp-block-quote.is-large,
+      .wp-block-quote.is-style-large {
+        border: none;
+      }
+      .wp-block-search .wp-block-search__label {
+        font-weight: 700;
+      }
+      .wp-block-group.has-background {
+        padding: 1.25em 2.375em;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .wp-block-separator {
+        border: none;
+        border-bottom: 2px solid;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.4;
+      }
+      .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
+        width: 100px;
+      }
+      .wp-block-separator.has-background:not(.is-style-dots) {
+        border-bottom: none;
+        height: 1px;
+      }
+      .wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
+        height: 2px;
+      }
+      .wp-block-table thead {
+        border-bottom: 3px solid;
+      }
+      .wp-block-table tfoot {
+        border-top: 3px solid;
+      }
+      .wp-block-table td,
+      .wp-block-table th {
+        padding: 0.5em;
+        border: 1px solid;
+        word-break: normal;
+      }
+      .wp-block-table figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-table figcaption {
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+      .wp-block-video figcaption {
+        color: #555;
+        font-size: 13px;
+        text-align: center;
+      }
+      .is-dark-theme .wp-block-video figcaption {
+        color: hsla(0, 0%, 100%, 0.65);
+      }
+      .wp-block-template-part.has-background {
+        padding: 1.25em 2.375em;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      #end-resizable-editor-section {
+        display: none;
+      }
     </style>
-
     <link
       rel="stylesheet"
       id="contact-form-7-css"
@@ -66,11 +219,197 @@
     <script src="./vendor/swiper.min.js" id="swiper-js"></script>
     <script src="./vendor/shariff.min.js" id="shariff-js"></script>
     <script src="./vendor/bo-foot-rebrush.js" id="bo-foot-rebrush-js"></script>
+    <script id="image_zoom-frontend-js-extra">
+      var IZ = {
+        options: {
+          lensShape: "square",
+          lensSize: 200,
+          lensBorderSize: 1,
+          lensBorderColour: "#ffffff",
+          borderRadius: 0,
+          cursor: "zoom-in",
+          zoomWindowWidth: 1200,
+          zoomWindowHeight: 800,
+          zoomWindowOffsetx: 10,
+          borderSize: 1,
+          borderColour: "#888888",
+          zoomWindowShadow: 4,
+          lensFadeIn: 500,
+          lensFadeOut: 500,
+          zoomWindowFadeIn: 500,
+          zoomWindowFadeOut: 500,
+          easingAmount: 12,
+          zoomWindowPosition: 2,
+          lensOverlay: false,
+          responsive: true,
+          responsiveThreshold: 800,
+          scrollZoom: true,
+          adjustZoomWindowHeight: false,
+          customText: "",
+          customTextSize: 12,
+          customTextColor: "#cccccc",
+          customTextVAlign: "bottom",
+          customTextAlign: "right",
+        },
+        with_woocommerce: "0",
+        exchange_thumbnails: "0",
+        enable_mobile: "1",
+        woo_categories: "0",
+        force_attachments: "1",
+        enable_lightbox_zoom: "0",
+        custom_class: ".gallery img",
+        flexslider: "",
+        owl: "",
+        flickity: "",
+        swiper: "",
+        slick: "",
+        huge_it_gallery: "",
+        search_filter_pro: "0",
+        remove_lightbox_thumbnails: "0",
+        remove_lightbox: "1",
+        woo_slider: "0",
+      };
+    </script>
+    <script
+      src="./vendor/image_zoom-frontend.min.js"
+      id="image_zoom-frontend-js"
+    ></script>
+    <script id="wp-wpso-front-scripts-js-extra">
+      var wpso = {
+        ajaxurl: "https:\/\/ulap.ag-urban.de\/wp-admin\/admin-ajax.php",
+        user_items: [],
+      };
+    </script>
+    <script
+      src="./vendor/front-scripts.js"
+      id="wp-wpso-front-scripts-js"
+    ></script>
 
+    <style>
+      img.zoooom,
+      .zoooom img {
+        padding: 0 !important;
+      }
+      .zoomLens[style],
+      .zoomContainer[style] {
+        overflow: visible !important;
+      }
+      .gallery img:hover,
+      img.zoooom:hover,
+      .zoooom img:hover,
+      .mp_product_image_single:hover,
+      a.zoomGallery img:hover,
+      .portfolio_images img:hover,
+      .single-fluxus_portfolio .project-image img:hover,
+      .attachment-product_page_image:hover,
+      .attachment-shop_single:hover {
+        cursor: -webkit-zoom-in;
+        cursor: -moz-zoom-in;
+        cursor: zoom-in;
+      }
+    </style>
+    <script></script>
     <link rel="icon" href="/vendor/favicon.ico" sizes="any" />
+
     <link rel="apple-touch-icon" href="/vendor/favicon-180.png" />
     <link rel="msapplication-TileImage" href="/vendor/favicon-256.png" />
+    <style id="wp-custom-css">
+      .rand {
+        border: 2px solid #000 !important;
+      }
 
+      .entry-title {
+        font-weight: normal;
+      }
+
+      /* body:not(.kiekma.logged-in) .image__image:after { display: none; }
+
+body:not(.kiekma.logged-in) .image__image>img { display: none; }
+
+body:not(.kiekma.logged-in) .image__image { cursor: default !important; } 
+*/
+      /* 
+body:not(logged-in) .wech {display: none; }
+*/
+
+      .testimonial {
+        text-align: center;
+      }
+
+      .testimonial .textbox .quote {
+        font-size: 1.3em;
+        color: #e40422;
+      }
+
+      .modul-testimonial {
+        margin-left: 10%;
+        margin-right: 15%;
+      }
+
+      .modul-testimonial .textbox {
+        font-size: 0.8em;
+        border: 1px solid;
+      }
+
+      .form-submit input.submit {
+        min-height: 43px;
+        margin-bottom: 0;
+        width: auto;
+        box-shadow: none;
+        border-radius: 0px;
+        text-decoration: none;
+        padding: 10px 16px;
+        font-size: 1em;
+        line-height: 1.2;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        cursor: pointer;
+        overflow: visible;
+        background-color: #fff;
+        color: #000;
+        border: 2px solid #000;
+        transition: background-color 0.2s ease-out;
+        position: relative;
+        padding-right: 20px;
+      }
+
+      .image__copyright {
+        font-size: 0.9em;
+      }
+
+      .form-submit input.submit:after {
+        background: #e40422;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        line-height: 2em;
+        width: 43px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .form-submit input.submit:after {
+        content: "\f061";
+        font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", FontAwesome;
+        font-weight: 700;
+        margin-left: 0.5em;
+        display: inline-block;
+        vertical-align: baseline;
+        color: #fff;
+        font-size: 18px;
+      }
+
+      .menu > ul > li {
+        width: 600px;
+      }
+
+      .gallery_preview {
+        width: 420px;
+      }
+    </style>
   </head>
 
   <body class="kiekma">
@@ -94,7 +433,7 @@
           <!-- Vertical Logo -->
           <div class="pageheader__logo">
             <div class="textlogo">
-              <a href="https://ulap-quartier.berlin.de/" rel="home">
+              <a href="https://ulap.ag-urban.de/" rel="home">
                 <span class="title">Wettbewerblicher Dialog</span>
                 <span class="">ULAP-Quartier</span>
               </a>
@@ -104,26 +443,26 @@
           <nav class="pageheader__quicklinks" aria-label="Bereichsnavigation">
             <ul>
               <li>
-                <a href="https://ulap-quartier.berlin.de/anlass-und-ziel"
+                <a href="https://ulap.ag-urban.de/anlass-und-ziel"
                   >Anlass und Ziel</a
                 >
               </li>
               <li>
-                <a href="https://ulap-quartier.berlin.de/aufgabenstellung">
+                <a href="https://ulap.ag-urban.de/aufgabenstellung">
                   Aufgabenstellung
                 </a>
               </li>
               <li>
-                <a href="https://ulap-quartier.berlin.de/verfahren">Verfahren</a>
+                <a href="https://ulap.ag-urban.de/verfahren">Verfahren</a>
               </li>
               <li>
-                <a href="https://ulap-quartier.berlin.de/gremium">Gremium</a>
+                <a href="https://ulap.ag-urban.de/gremium">Gremium</a>
               </li>
               <li>
-                <a href="https://ulap-quartier.berlin.de/beitraege/">Beiträge</a>
+                <a href="https://ulap.ag-urban.de/beitraege/">Beiträge</a>
               </li>
               <li>
-                <a href="https://ulap-quartier.berlin.de/ergebnis/">Ergebnis</a>
+                <a href="https://ulap.ag-urban.de/ergebnis/">Ergebnis</a>
               </li>
             </ul>
           </nav>
@@ -171,7 +510,7 @@
                   <h3>Wie barrierefrei ist diese Webseite?</h3>
                   <p>
                     <a
-                      href="https://ulap-quartier.berlin.de/barrierefreiheitserklaerung/"
+                      href="https://ulap.ag-urban.de/barrierefreiheitserklaerung/"
                       >Erklärung zur digitalen Barrierefreiheit</a
                     >
                   </p>
@@ -319,118 +658,118 @@
                       <h3 class="aural">Seitennavigation</h3>
                       <ul class="navigation-tree tree__root">
                         <li>
-                          <a href="https://ulap-quartier.berlin.de/">Startseite</a>
+                          <a href="https://ulap.ag-urban.de/">Startseite</a>
                         </li>
                         <li>
-                          <a href="https://ulap-quartier.berlin.de/anlass-und-ziel"
+                          <a href="https://ulap.ag-urban.de/anlass-und-ziel"
                             >Anlass und Ziel</a
                           >
                         </li>
                         <li>
-                          <a href="https://ulap-quartier.berlin.de/aufgabenstellung"
+                          <a href="https://ulap.ag-urban.de/aufgabenstellung"
                             >Aufgabenstellung</a
                           >
                         </li>
                         <li>
-                          <a href="https://ulap-quartier.berlin.de/verfahren"
+                          <a href="https://ulap.ag-urban.de/verfahren"
                             >Verfahren</a
                           >
                         </li>
                         <li>
-                          <a href="https://ulap-quartier.berlin.de/gremium">Gremium</a>
+                          <a href="https://ulap.ag-urban.de/gremium">Gremium</a>
                         </li>
                         <li>
-                          <a href="https://ulap-quartier.berlin.de/beitraege"
+                          <a href="https://ulap.ag-urban.de/beitraege"
                             >Beiträge</a
                           >
                           <ul class="navigation-tree">
                             <li>
                               <a
-                                href="https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-3/team-1/"
+                                href="https://ulap.ag-urban.de/beitraege/dialogrunde/runde-3/team-1/"
                                 >Runde 3: Team 1</a
                               >
                             </li>
                             <li>
                               <a
-                                href="https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-3/team-2/"
+                                href="https://ulap.ag-urban.de/beitraege/dialogrunde/runde-3/team-2/"
                                 >Runde 3: Team 2</a
                               >
                             </li>
                             <li>
                               <a
-                                href="https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-2/team-1/"
+                                href="https://ulap.ag-urban.de/beitraege/dialogrunde/runde-2/team-1/"
                                 >Runde 2: Team 1</a
                               >
                             </li>
                             <li>
                               <a
-                                href="https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-2/team-2/"
+                                href="https://ulap.ag-urban.de/beitraege/dialogrunde/runde-2/team-2/"
                                 >Runde 2: Team 2</a
                               >
                             </li>
                             <li>
                               <a
-                                href="https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-2/team-3/"
+                                href="https://ulap.ag-urban.de/beitraege/dialogrunde/runde-2/team-3/"
                                 >Runde 2: Team 3</a
                               >
                             </li>
                             <li>
                               <a
-                                href="https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-1/team-1/"
+                                href="https://ulap.ag-urban.de/beitraege/dialogrunde/runde-1/team-1/"
                                 >Runde 1: Team 1</a
                               >
                             </li>
                             <li>
                               <a
-                                href="https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-1/team-2/"
+                                href="https://ulap.ag-urban.de/beitraege/dialogrunde/runde-1/team-2/"
                                 >Runde 1: Team 2</a
                               >
                             </li>
                             <li>
                               <a
-                                href="https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-1/team-3/"
+                                href="https://ulap.ag-urban.de/beitraege/dialogrunde/runde-1/team-3/"
                                 >Runde 1: Team 3</a
                               >
                             </li>
                             <li>
                               <a
-                                href="https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-1/team-4/"
+                                href="https://ulap.ag-urban.de/beitraege/dialogrunde/runde-1/team-4/"
                                 >Runde 1: Team 4</a
                               >
                             </li>
                             <li>
                               <a
-                                href="https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-1/team-5/"
+                                href="https://ulap.ag-urban.de/beitraege/dialogrunde/runde-1/team-5/"
                                 >Runde 1: Team 5</a
                               >
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <a href="https://ulap-quartier.berlin.de/ergebnis"
+                          <a href="https://ulap.ag-urban.de/ergebnis"
                             >Ergebnis</a
                           >
                         </li>
 
                         <li>
-                          <a href="https://ulap-quartier.berlin.de/hinweise/"
+                          <a href="https://ulap.ag-urban.de/hinweise/"
                             >Hinweise zur Benutzung</a
                           >
                         </li>
                         <li>
-                          <a href="https://ulap-quartier.berlin.de/impressum/"
+                          <a href="https://ulap.ag-urban.de/impressum/"
                             >Impressum</a
                           >
                         </li>
                         <li>
                           <a
-                            href="https://ulap-quartier.berlin.de/datenschutzerklaerung/"
+                            href="https://ulap.ag-urban.de/datenschutzerklaerung/"
                             >Datenschutzerklärung</a
                           >
                         </li>
                         <li>
                           <a
-                            href="https://ulap-quartier.berlin.de/barrierefreiheitserklaerung/"
+                            href="https://ulap.ag-urban.de/barrierefreiheitserklaerung/"
                             >Digitale Barrierefreiheit</a
                           >
                         </li>
@@ -449,9 +788,9 @@
             <nav class="breadcrumb" aria-label="Breadcrumb">
               <h2 class="aural">You are here:</h2>
               <ol>
-                <li><a href="https://ulap-quartier.berlin.de/">Start</a></li>
+                <li><a href="https://ulap.ag-urban.de/">Start</a></li>
                 <li>
-                  <a href="https://ulap-quartier.berlin.de/beitraege/">Beiträge</a>
+                  <a href="https://ulap.ag-urban.de/beitraege/">Beiträge</a>
                 </li>
                 <li>
                   <span class="active" aria-current="page"
@@ -470,16 +809,14 @@
         </div>
 
         <div id="layout-grid__area--maincontent">
-          <section class="modul-text_bild imagealignleft fifty">
-            <div class="image">
-              <div class="image__image flexgrid grid--2">
-                <a
-                  href="./vendor/PH2_BJP_1_3678.jpg"
-                  class="js-cbox-imagezoom"
-                  title='This image is wrapped in a link with class &lt;code class="sg-code-inline"&gt;.js-cbox-imagezoom&lt;/code&gt; Bild: gettyimages'
-                >
+          <p data-wp-editing="1"></p>
+          <div class="su-row">
+            <div class="su-column su-column-size-1-2">
+              <div class="su-column-inner su-u-clearfix su-u-trim">
+                <p data-wp-editing="1">
                   <img
                     loading="lazy"
+                    class="alignnone wp-image-5200 zoooom"
                     src="./vendor/PH2_BJP_1_283.jpg"
                     alt=""
                     width="210"
@@ -493,18 +830,9 @@
                     "
                     sizes="(max-width: 210px) 100vw, 210px"
                   />
-                  <span class="aural"
-                    >[Link überblendet Fenster mit einem modalen
-                    Dialogfeld]</span
-                  >
-                </a>
-                <a
-                  href="./vendor/PH2_BJP_2_3678.jpg"
-                  class="js-cbox-imagezoom"
-                  title='This image is wrapped in a link with class &lt;code class="sg-code-inline"&gt;.js-cbox-imagezoom&lt;/code&gt; Bild: gettyimages'
-                >
                   <img
                     loading="lazy"
+                    class="alignnone zoooom"
                     src="./vendor/PH2_BJP_2_283.jpg"
                     alt=""
                     width="210"
@@ -518,18 +846,9 @@
                     "
                     sizes="(max-width: 210px) 100vw, 210px"
                   />
-                  <span class="aural"
-                    >[Link überblendet Fenster mit einem modalen
-                    Dialogfeld]</span
-                  >
-                </a>
-                <a
-                  href="./vendor/PH2_BJP_3_3678.jpg"
-                  class="js-cbox-imagezoom"
-                  title='This image is wrapped in a link with class &lt;code class="sg-code-inline"&gt;.js-cbox-imagezoom&lt;/code&gt; Bild: gettyimages'
-                >
                   <img
                     loading="lazy"
+                    class="alignnone wp-image-5200 zoooom"
                     src="./vendor/PH2_BJP_3_283.jpg"
                     alt=""
                     width="210"
@@ -543,18 +862,9 @@
                     "
                     sizes="(max-width: 210px) 100vw, 210px"
                   />
-                  <span class="aural"
-                    >[Link überblendet Fenster mit einem modalen
-                    Dialogfeld]</span
-                  >
-                </a>
-                <a
-                  href="./vendor/PH2_BJP_4_3678.jpg"
-                  class="js-cbox-imagezoom"
-                  title='This image is wrapped in a link with class &lt;code class="sg-code-inline"&gt;.js-cbox-imagezoom&lt;/code&gt; Bild: gettyimages'
-                >
                   <img
                     loading="lazy"
+                    class="alignnone zoooom"
                     src="./vendor/PH2_BJP_4_283.jpg"
                     alt=""
                     width="210"
@@ -568,18 +878,9 @@
                     "
                     sizes="(max-width: 210px) 100vw, 210px"
                   />
-                  <span class="aural"
-                    >[Link überblendet Fenster mit einem modalen
-                    Dialogfeld]</span
-                  >
-                </a>
-                <a
-                  href="./vendor/PH2_BJP_5_3678.jpg"
-                  class="js-cbox-imagezoom"
-                  title='This image is wrapped in a link with class &lt;code class="sg-code-inline"&gt;.js-cbox-imagezoom&lt;/code&gt; Bild: gettyimages'
-                >
                   <img
                     loading="lazy"
+                    class="alignnone zoooom"
                     src="./vendor/PH2_BJP_5_283.jpg"
                     alt=""
                     width="210"
@@ -593,18 +894,9 @@
                     "
                     sizes="(max-width: 210px) 100vw, 210px"
                   />
-                  <span class="aural"
-                    >[Link überblendet Fenster mit einem modalen
-                    Dialogfeld]</span
-                  >
-                </a>
-                <a
-                  href="./vendor/PH2_BJP_6_3678.jpg"
-                  class="js-cbox-imagezoom"
-                  title='This image is wrapped in a link with class &lt;code class="sg-code-inline"&gt;.js-cbox-imagezoom&lt;/code&gt; Bild: gettyimages'
-                >
                   <img
                     loading="lazy"
+                    class="alignnone zoooom"
                     src="./vendor/PH2_BJP_6_283.jpg"
                     alt=""
                     width="210"
@@ -618,82 +910,81 @@
                     "
                     sizes="(max-width: 210px) 100vw, 210px"
                   />
-                  <span class="aural"
-                    >[Link überblendet Fenster mit einem modalen
-                    Dialogfeld]</span
-                  >
-                </a>
+                </p>
+
+                <p data-wp-editing="1"></p>
               </div>
             </div>
+            <div class="su-column su-column-size-1-2">
+              <div class="su-column-inner su-u-clearfix su-u-trim">
+                <p><strong>Verfasser*innen</strong></p>
+                <p>Büro: BJP | form follows you | Mandaworks , Berlin</p>
 
-            <div class="text textile">
-              <p><strong>Verfasser*innen</strong></p>
-              <p>Büro: BJP | form follows you | Mandaworks , Berlin</p>
+                <h2>Auszug aus dem Erläuterungstext</h2>
 
-              <h2>Auszug aus dem Erläuterungstext</h2>
-
-              <p>
-                Im neuen Quartier werden die zentralen Herausforderungen des
-                urbanen Lebens der Zukunft erprobt. Die unterschiedlichen
-                Nutzungen (Wohnen, Arbeiten, Freizeit, Erholung, Verkehr) treten
-                in eine symbiotische Ko-Existenz, die für alle Nutzer
-                Synergieeffekte erzeugt und zu einem nachbarschaftlichen
-                Miteinander führt. Die Vision ULAB 21 stellt Offenheit,
-                Aneignungsmöglichkeit, Flexibilität und Verknüpfung in den
-                Mittelpunkt und orientiert sich an der Lebendigkeit der Berliner
-                Kieze („Der Kreuzberger Mischung“).
-              </p>
-              <p>
-                Die konzeptionelle Struktur des neuen Quartiers wird in erster
-                Linie aus dem Kontext der Umgebung (Europacity/HBF, Moabit, ULAP
-                Park) hergeleitet. Hieraus ergeben sich drei primäre Charaktere:
-                Das Quartier Ost als dichtes Arbeitsquartier in der Nähe zum
-                Hbf. Das Quartier West als intimer Wohncampus mit viel Grün als
-                Verbindung zu Moabit. Das Quartier Mitte als urban-pulsierender
-                multifunktionaler Stadtbaustein und Verbindungsachse über das
-                Plateau zum ULAP Park.
-              </p>
-              <p>
-                Durch das sehr ambitionierte Raumprogramm ergeben sich große
-                Herausforderungen für das Plangebiet. Als ein erster
-                Lösungsansatz wird die Erweiterung der Grenzen des Plangebietes
-                vorgeschlagen, um mehr Flexibilität für die räumliche Gestaltung
-                des Areals zu gewinnen. So wird der Bereich der heutigen Tram
-                Schienen mit zwei Gebäuden und dem Plateau überbaut. Die
-                Einfahrt der Tramzüge in das EG des Gebäudes bleibt weiterhin
-                möglich. Als Vorbild dient hierzu das Projekt Kalkbreite aus
-                Zürich. Ebenso wird die heutige Buswendeschleife der BVG unter
-                das Bahnviadukt verlegt, so dass ausreichend Platz für das
-                Quartier Ost entsteht.
-              </p>
-              <p>
-                Die Nutzungsmischung und Überlappung von unterschiedlichen
-                Nutzungen mit Wohnwaben, Büronutzungen, Handel und vor allem
-                auch Gemeinschaftsnutzungen treten in eine Symbiose und erzeugen
-                Gemeinschaft, Austausch und Nachbarschaft.
-              </p>
+                <p>
+                  Im neuen Quartier werden die zentralen Herausforderungen des
+                  urbanen Lebens der Zukunft erprobt. Die unterschiedlichen
+                  Nutzungen (Wohnen, Arbeiten, Freizeit, Erholung, Verkehr)
+                  treten in eine symbiotische Ko-Existenz, die für alle Nutzer
+                  Synergieeffekte erzeugt und zu einem nachbarschaftlichen
+                  Miteinander führt. Die Vision ULAB 21 stellt Offenheit,
+                  Aneignungsmöglichkeit, Flexibilität und Verknüpfung in den
+                  Mittelpunkt und orientiert sich an der Lebendigkeit der
+                  Berliner Kieze („Der Kreuzberger Mischung“).
+                </p>
+                <p>
+                  Die konzeptionelle Struktur des neuen Quartiers wird in erster
+                  Linie aus dem Kontext der Umgebung (Europacity/HBF, Moabit,
+                  ULAP Park) hergeleitet. Hieraus ergeben sich drei primäre
+                  Charaktere: Das Quartier Ost als dichtes Arbeitsquartier in
+                  der Nähe zum Hbf. Das Quartier West als intimer Wohncampus mit
+                  viel Grün als Verbindung zu Moabit. Das Quartier Mitte als
+                  urban-pulsierender multifunktionaler Stadtbaustein und
+                  Verbindungsachse über das Plateau zum ULAP Park.
+                </p>
+                <p>
+                  Durch das sehr ambitionierte Raumprogramm ergeben sich große
+                  Herausforderungen für das Plangebiet. Als ein erster
+                  Lösungsansatz wird die Erweiterung der Grenzen des
+                  Plangebietes vorgeschlagen, um mehr Flexibilität für die
+                  räumliche Gestaltung des Areals zu gewinnen. So wird der
+                  Bereich der heutigen Tram Schienen mit zwei Gebäuden und dem
+                  Plateau überbaut. Die Einfahrt der Tramzüge in das EG des
+                  Gebäudes bleibt weiterhin möglich. Als Vorbild dient hierzu
+                  das Projekt Kalkbreite aus Zürich. Ebenso wird die heutige
+                  Buswendeschleife der BVG unter das Bahnviadukt verlegt, so
+                  dass ausreichend Platz für das Quartier Ost entsteht.
+                </p>
+                <p>
+                  Die Nutzungsmischung und Überlappung von unterschiedlichen
+                  Nutzungen mit Wohnwaben, Büronutzungen, Handel und vor allem
+                  auch Gemeinschaftsnutzungen treten in eine Symbiose und
+                  erzeugen Gemeinschaft, Austausch und Nachbarschaft.
+                </p>
+              </div>
             </div>
-          </section>
+          </div>
 
           <nav class="pagination" aria-label="Seite wechseln">
             <ul>
               <li class="pager-item-previous">
                 <a
-                  href="https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-3/team-2/"
+                  href="https://ulap.ag-urban.de/beitraege/dialogrunde/runde-3/team-2/"
                   title="Eine Seite zurück blättern"
                   ><i class="fas fa-chevron-left" aria-hidden="true"></i
                 ></a>
               </li>
               <li class="active" aria-current="page">
                 <a
-                  href="https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-2/team-1/"
+                  href="https://ulap.ag-urban.de/beitraege/dialogrunde/runde-2/team-1/"
                   >Runde 2 Team 1</a
                 >
               </li>
               <li class="mobile-counter"><span>Runde 2 Team 1</span></li>
               <li class="pager-item-next">
                 <a
-                  href="https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-2/team-2/"
+                  href="https://ulap.ag-urban.de/beitraege/dialogrunde/runde-2/team-2/"
                   title="Eine Seite weiter blättern"
                   ><i class="fas fa-chevron-right" aria-hidden="true"></i
                 ></a>
@@ -714,7 +1005,7 @@
             <div class="content-footer__brand"></div>
             <a
               class="to-top"
-              href="https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-3/team-1//#top"
+              href="https://ulap.ag-urban.de/beitraege/dialogrunde/runde-3/team-1//#top"
               >Zum Seitenanfang</a
             >
 
@@ -724,18 +1015,18 @@
                   <h3 class="heading js-trigger">Allgemeine Links</h3>
                   <ul>
                     <li>
-                      <a href="https://ulap-quartier.berlin.de/impressum/"
+                      <a href="https://ulap.ag-urban.de/impressum/"
                         >Impressum</a
                       >
                     </li>
                     <li>
-                      <a href="https://ulap-quartier.berlin.de/datenschutzerklaerung/"
+                      <a href="https://ulap.ag-urban.de/datenschutzerklaerung/"
                         >Datenschutzerklärung</a
                       >
                     </li>
                     <li>
                       <a
-                        href="https://ulap-quartier.berlin.de/barrierefreiheitserklaerung/"
+                        href="https://ulap.ag-urban.de/barrierefreiheitserklaerung/"
                         >Digitale Barrierefreiheit</a
                       >
                     </li>
@@ -746,33 +1037,33 @@
                   <h3 class="heading js-trigger">Site-Links</h3>
                   <ul>
                     <li>
-                      <a href="https://ulap-quartier.berlin.de">Startseite</a>
+                      <a href="https://ulap.ag-urban.de">Startseite</a>
                     </li>
                     <li>
-                      <a href="https://ulap-quartier.berlin.de/anlass-und-ziel"
+                      <a href="https://ulap.ag-urban.de/anlass-und-ziel"
                         >Anlass und Ziel</a
                       >
                     </li>
                     <li>
-                      <a href="https://ulap-quartier.berlin.de/aufgabenstellung"
+                      <a href="https://ulap.ag-urban.de/aufgabenstellung"
                         >Aufgabenstellung</a
                       >
                     </li>
                     <li>
-                      <a href="https://ulap-quartier.berlin.de/verfahren">Verfahren</a>
+                      <a href="https://ulap.ag-urban.de/verfahren">Verfahren</a>
                     </li>
                     <li>
-                      <a href="https://ulap-quartier.berlin.de/gremium">Gremium</a>
+                      <a href="https://ulap.ag-urban.de/gremium">Gremium</a>
                     </li>
                     <li>
-                      <a href="https://ulap-quartier.berlin.de/beitraege/">Beiträge</a>
+                      <a href="https://ulap.ag-urban.de/beitraege/">Beiträge</a>
                     </li>
 
                     <li>
-                      <a href="https://ulap-quartier.berlin.de/ergebnis/">Ergebnis</a>
+                      <a href="https://ulap.ag-urban.de/ergebnis/">Ergebnis</a>
                     </li>
                     <li>
-                      <a href="https://ulap-quartier.berlin.de/hinweise/">
+                      <a href="https://ulap.ag-urban.de/hinweise/">
                         Hinweise zur Benutzung
                       </a>
                     </li>
@@ -784,7 +1075,7 @@
                   <ul>
                     <li>
                       <a
-                        href="https://ulap-quartier.berlin.de/beitraege/dialogrunde/runde-3/team-1/"
+                        href="https://ulap.ag-urban.de/beitraege/dialogrunde/runde-3/team-1/"
                         >ISSS | bauchplan</a
                       >
                     </li>
@@ -795,17 +1086,17 @@
                   <h3 class="heading js-trigger">Beiträge</h3>
                   <ul>
                     <li>
-                      <a href="https://ulap-quartier.berlin.de/beitraege#dialogrunde-1"
+                      <a href="https://ulap.ag-urban.de/beitraege#dialogrunde-1"
                         >Dialogrunde 1</a
                       >
                     </li>
                     <li>
-                      <a href="https://ulap-quartier.berlin.de/beitraege#dialogrunde-2"
+                      <a href="https://ulap.ag-urban.de/beitraege#dialogrunde-2"
                         >Dialogrunde 2</a
                       >
                     </li>
                     <li>
-                      <a href="https://ulap-quartier.berlin.de/beitraege#dialogrunde-3"
+                      <a href="https://ulap.ag-urban.de/beitraege#dialogrunde-3"
                         >Dialogrunde 3</a
                       >
                     </li>
@@ -935,7 +1226,7 @@
                   <a href="https://www.berlin.de/vergabeplattform/">Vergaben</a>
                 </li>
                 <li>
-                  <a href="https://ulap-quartier.berlin.de/buergeraktiv/">Ehrenamt</a>
+                  <a href="https://ulap.ag-urban.de/buergeraktiv/">Ehrenamt</a>
                 </li>
               </ul>
               <!--FLEX END: Footerlinklist-->
@@ -1046,12 +1337,62 @@
           user-select: none;
         }
       </style> </noscript
-    >
+    ><link
+      rel="stylesheet"
+      id="envira-gallery-style-css"
+      href="./vendor/envira.css"
+      media="all"
+      property="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      id="envira-gallery-jgallery-css"
+      href="./vendor/justifiedGallery.css"
+      media="all"
+      property="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      id="envira-gallery-base_dark-lightbox-theme-css"
+      href="./vendor/style.css"
+      media="all"
+      property="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      id="su-shortcodes-css"
+      href="./vendor/shortcodes.css"
+      media="all"
+    />
     <script
       src="./vendor/regenerator-runtime.min.js"
       id="regenerator-runtime-js"
     ></script>
+    <script src="./vendor/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+    <script id="contact-form-7-js-extra">
+      var wpcf7 = {
+        api: {
+          root: "https:\/\/ulap.ag-urban.de\/wp-json\/",
+          namespace: "contact-form-7\/v1",
+        },
+      };
+    </script>
+    <script src="./vendor/index.js" id="contact-form-7-js"></script>
 
+    <script src="./vendor/wp-embed.min.js" id="wp-embed-js"></script>
+    <script id="envira-gallery-script-js-extra">
+      var envira_gallery = {
+        debug: "",
+        ll_delay: "500",
+        ll_initial: "false",
+        ll: "true",
+        mobile: "0",
+      };
+    </script>
+    <script src="./vendor/envira-min.js" id="envira-gallery-script-js"></script>
+
+    <span id="js-is_palm"></span>
+    <span id="js-is_tablet"></span>
     <object
       id="__symantecPKIClientMessenger"
       data-supports-flavor-configuration="true"
