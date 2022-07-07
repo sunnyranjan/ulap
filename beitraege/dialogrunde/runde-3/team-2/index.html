@@ -29,151 +29,21 @@
       media="all"
     />
 
-    <style id="wp-block-library-theme-inline-css">
-      #start-resizable-editor-section {
-        display: none;
-      }
-      .wp-block-audio figcaption {
-        color: #555;
-        font-size: 13px;
-        text-align: center;
-      }
-      .is-dark-theme .wp-block-audio figcaption {
-        color: hsla(0, 0%, 100%, 0.65);
-      }
-      .wp-block-code {
-        font-family: Menlo, Consolas, monaco, monospace;
-        color: #1e1e1e;
-        padding: 0.8em 1em;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-      }
-      .wp-block-embed figcaption {
-        color: #555;
-        font-size: 13px;
-        text-align: center;
-      }
-      .is-dark-theme .wp-block-embed figcaption {
-        color: hsla(0, 0%, 100%, 0.65);
-      }
-      .blocks-gallery-caption {
-        color: #555;
-        font-size: 13px;
-        text-align: center;
-      }
-      .is-dark-theme .blocks-gallery-caption {
-        color: hsla(0, 0%, 100%, 0.65);
-      }
-      .wp-block-image figcaption {
-        color: #555;
-        font-size: 13px;
-        text-align: center;
-      }
-      .is-dark-theme .wp-block-image figcaption {
-        color: hsla(0, 0%, 100%, 0.65);
-      }
-      .wp-block-pullquote {
-        border-top: 4px solid;
-        border-bottom: 4px solid;
-        margin-bottom: 1.75em;
-        color: currentColor;
-      }
-      .wp-block-pullquote__citation,
-      .wp-block-pullquote cite,
-      .wp-block-pullquote footer {
-        color: currentColor;
-        text-transform: uppercase;
-        font-size: 0.8125em;
-        font-style: normal;
-      }
-      .wp-block-quote {
-        border-left: 0.25em solid;
-        margin: 0 0 1.75em;
-        padding-left: 1em;
-      }
-      .wp-block-quote cite,
-      .wp-block-quote footer {
-        color: currentColor;
-        font-size: 0.8125em;
-        position: relative;
-        font-style: normal;
-      }
-      .wp-block-quote.has-text-align-right {
-        border-left: none;
-        border-right: 0.25em solid;
-        padding-left: 0;
-        padding-right: 1em;
-      }
-      .wp-block-quote.has-text-align-center {
-        border: none;
-        padding-left: 0;
-      }
-      .wp-block-quote.is-large,
-      .wp-block-quote.is-style-large {
-        border: none;
-      }
-      .wp-block-search .wp-block-search__label {
-        font-weight: 700;
-      }
-      .wp-block-group.has-background {
-        padding: 1.25em 2.375em;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-      .wp-block-separator {
-        border: none;
-        border-bottom: 2px solid;
-        margin-left: auto;
-        margin-right: auto;
-        opacity: 0.4;
-      }
-      .wp-block-separator:not(.is-style-wide):not(.is-style-dots) {
-        width: 100px;
-      }
-      .wp-block-separator.has-background:not(.is-style-dots) {
-        border-bottom: none;
-        height: 1px;
-      }
-      .wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots) {
-        height: 2px;
-      }
-      .wp-block-table thead {
-        border-bottom: 3px solid;
-      }
-      .wp-block-table tfoot {
-        border-top: 3px solid;
-      }
-      .wp-block-table td,
-      .wp-block-table th {
-        padding: 0.5em;
-        border: 1px solid;
-        word-break: normal;
-      }
-      .wp-block-table figcaption {
-        color: #555;
-        font-size: 13px;
-        text-align: center;
-      }
-      .is-dark-theme .wp-block-table figcaption {
-        color: hsla(0, 0%, 100%, 0.65);
-      }
-      .wp-block-video figcaption {
-        color: #555;
-        font-size: 13px;
-        text-align: center;
-      }
-      .is-dark-theme .wp-block-video figcaption {
-        color: hsla(0, 0%, 100%, 0.65);
-      }
-      .wp-block-template-part.has-background {
-        padding: 1.25em 2.375em;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-      #end-resizable-editor-section {
-        display: none;
+    <style>
+      .ulap-gallery {
+        width: 100%;
+        margin: 0 auto 20px auto;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        width: 160px;
       }
     </style>
+
     <link
       rel="stylesheet"
       id="contact-form-7-css"
@@ -303,117 +173,10 @@
       }
     </style>
     <script></script>
-    <link
-      rel="icon"
-      href="/vendor/favicon.ico"
-      sizes="any"
-    />
+    <link rel="icon" href="/vendor/favicon.ico" sizes="any" />
 
-    <link
-      rel="apple-touch-icon"
-      href="/vendor/favicon-180.png"
-    />
-    <link
-      rel="msapplication-TileImage"
-      href="/vendor/favicon-256.png"
-    />
-    <style id="wp-custom-css">
-      .rand {
-        border: 2px solid #000 !important;
-      }
-
-      .entry-title {
-        font-weight: normal;
-      }
-
-      /* body:not(.kiekma.logged-in) .image__image:after { display: none; }
-
-body:not(.kiekma.logged-in) .image__image>img { display: none; }
-
-body:not(.kiekma.logged-in) .image__image { cursor: default !important; } 
-*/
-      /* 
-body:not(logged-in) .wech {display: none; }
-*/
-
-      .testimonial {
-        text-align: center;
-      }
-
-      .testimonial .textbox .quote {
-        font-size: 1.3em;
-        color: #e40422;
-      }
-
-      .modul-testimonial {
-        margin-left: 10%;
-        margin-right: 15%;
-      }
-
-      .modul-testimonial .textbox {
-        font-size: 0.8em;
-        border: 1px solid;
-      }
-
-      .form-submit input.submit {
-        min-height: 43px;
-        margin-bottom: 0;
-        width: auto;
-        box-shadow: none;
-        border-radius: 0px;
-        text-decoration: none;
-        padding: 10px 16px;
-        font-size: 1em;
-        line-height: 1.2;
-        display: inline-block;
-        vertical-align: top;
-        text-align: center;
-        cursor: pointer;
-        overflow: visible;
-        background-color: #fff;
-        color: #000;
-        border: 2px solid #000;
-        transition: background-color 0.2s ease-out;
-        position: relative;
-        padding-right: 20px;
-      }
-
-      .image__copyright {
-        font-size: 0.9em;
-      }
-
-      .form-submit input.submit:after {
-        background: #e40422;
-        position: absolute;
-        right: 0;
-        top: 0;
-        height: 100%;
-        line-height: 2em;
-        width: 43px;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .form-submit input.submit:after {
-        content: "\f061";
-        font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", FontAwesome;
-        font-weight: 700;
-        margin-left: 0.5em;
-        display: inline-block;
-        vertical-align: baseline;
-        color: #fff;
-        font-size: 18px;
-      }
-
-      .menu > ul > li {
-        width: 600px;
-      }
-
-      .gallery_preview {
-        width: 420px;
-      }
-    </style>
+    <link rel="apple-touch-icon" href="/vendor/favicon-180.png" />
+    <link rel="msapplication-TileImage" href="/vendor/favicon-256.png" />
   </head>
 
   <body class="kiekma">
@@ -447,14 +210,10 @@ body:not(logged-in) .wech {display: none; }
           <nav class="pageheader__quicklinks" aria-label="Bereichsnavigation">
             <ul>
               <li>
-                <a href="/anlass-und-ziel"
-                  >Anlass und Ziel</a
-                >
+                <a href="/anlass-und-ziel">Anlass und Ziel</a>
               </li>
               <li>
-                <a href="/aufgabenstellung">
-                  Aufgabenstellung
-                </a>
+                <a href="/aufgabenstellung"> Aufgabenstellung </a>
               </li>
               <li>
                 <a href="/verfahren">Verfahren</a>
@@ -513,8 +272,7 @@ body:not(logged-in) .wech {display: none; }
                 <div class="overlay__body">
                   <h3>Wie barrierefrei ist diese Webseite?</h3>
                   <p>
-                    <a
-                      href="/barrierefreiheitserklaerung/"
+                    <a href="/barrierefreiheitserklaerung/"
                       >Erklärung zur digitalen Barrierefreiheit</a
                     >
                   </p>
@@ -665,115 +423,89 @@ body:not(logged-in) .wech {display: none; }
                           <a href="/">Startseite</a>
                         </li>
                         <li>
-                          <a href="/anlass-und-ziel"
-                            >Anlass und Ziel</a
-                          >
+                          <a href="/anlass-und-ziel">Anlass und Ziel</a>
                         </li>
                         <li>
-                          <a href="/aufgabenstellung"
-                            >Aufgabenstellung</a
-                          >
+                          <a href="/aufgabenstellung">Aufgabenstellung</a>
                         </li>
                         <li>
-                          <a href="/verfahren"
-                            >Verfahren</a
-                          >
+                          <a href="/verfahren">Verfahren</a>
                         </li>
                         <li>
                           <a href="/gremium">Gremium</a>
                         </li>
                         <li>
-                          <a href="/beitraege"
-                            >Beiträge</a
-                          >
+                          <a href="/beitraege">Beiträge</a>
                           <ul class="navigation-tree">
                             <li>
-                              <a
-                                href="/beitraege/dialogrunde/runde-3/team-1/"
+                              <a href="/beitraege/dialogrunde/runde-3/team-1/"
                                 >Runde 3: Team 1</a
                               >
                             </li>
                             <li>
-                              <a
-                                href="/beitraege/dialogrunde/runde-3/team-2/"
+                              <a href="/beitraege/dialogrunde/runde-3/team-2/"
                                 >Runde 3: Team 2</a
                               >
                             </li>
                             <li>
-                              <a
-                                href="/beitraege/dialogrunde/runde-2/team-1/"
+                              <a href="/beitraege/dialogrunde/runde-2/team-1/"
                                 >Runde 2: Team 1</a
                               >
                             </li>
                             <li>
-                              <a
-                                href="/beitraege/dialogrunde/runde-2/team-2/"
+                              <a href="/beitraege/dialogrunde/runde-2/team-2/"
                                 >Runde 2: Team 2</a
                               >
                             </li>
                             <li>
-                              <a
-                                href="/beitraege/dialogrunde/runde-2/team-3/"
+                              <a href="/beitraege/dialogrunde/runde-2/team-3/"
                                 >Runde 2: Team 3</a
                               >
                             </li>
                             <li>
-                              <a
-                                href="/beitraege/dialogrunde/runde-1/team-1/"
+                              <a href="/beitraege/dialogrunde/runde-1/team-1/"
                                 >Runde 1: Team 1</a
                               >
                             </li>
                             <li>
-                              <a
-                                href="/beitraege/dialogrunde/runde-1/team-2/"
+                              <a href="/beitraege/dialogrunde/runde-1/team-2/"
                                 >Runde 1: Team 2</a
                               >
                             </li>
                             <li>
-                              <a
-                                href="/beitraege/dialogrunde/runde-1/team-3/"
+                              <a href="/beitraege/dialogrunde/runde-1/team-3/"
                                 >Runde 1: Team 3</a
                               >
                             </li>
                             <li>
-                              <a
-                                href="/beitraege/dialogrunde/runde-1/team-4/"
+                              <a href="/beitraege/dialogrunde/runde-1/team-4/"
                                 >Runde 1: Team 4</a
                               >
                             </li>
                             <li>
-                              <a
-                                href="/beitraege/dialogrunde/runde-1/team-5/"
+                              <a href="/beitraege/dialogrunde/runde-1/team-5/"
                                 >Runde 1: Team 5</a
                               >
                             </li>
                           </ul>
                         </li>
                         <li>
-                          <a href="/ergebnis"
-                            >Ergebnis</a
-                          >
+                          <a href="/ergebnis">Ergebnis</a>
                         </li>
 
                         <li>
-                          <a href="/hinweise/"
-                            >Hinweise zur Benutzung</a
-                          >
+                          <a href="/hinweise/">Hinweise zur Benutzung</a>
                         </li>
                         <li>
-                          <a href="/impressum/"
-                            >Impressum</a
-                          >
+                          <a href="/impressum/">Impressum</a>
                         </li>
                         <li>
-                          <a
-                            href="/datenschutzerklaerung/"
+                          <a href="/datenschutzerklaerung/"
                             >Datenschutzerklärung</a
                           >
                         </li>
                         <li>
-                          <a
-                            href="/barrierefreiheitserklaerung/"
+                          <a href="/barrierefreiheitserklaerung/"
                             >Digitale Barrierefreiheit</a
                           >
                         </li>
@@ -797,7 +529,9 @@ body:not(logged-in) .wech {display: none; }
                   <a href="/beitraege/">Beiträge</a>
                 </li>
                 <li>
-                  <span class="active" aria-current="page">urbanophil | kepler 32 | gruppe f</span>
+                  <span class="active" aria-current="page"
+                    >urbanophil | kepler 32 | gruppe f</span
+                  >
                 </li>
               </ol>
             </nav>
@@ -811,55 +545,88 @@ body:not(logged-in) .wech {display: none; }
         </div>
 
         <div id="layout-grid__area--maincontent">
-          <p data-wp-editing="1"></p>
           <div class="su-row">
             <div class="su-column su-column-size-1-2">
               <div class="su-column-inner su-u-clearfix su-u-trim">
-                <p data-wp-editing="1">
-                  <img
-                    loading="lazy"
-                    class="alignnone  zoooom"
-                    src="./vendor/PH3_UPK_1_283.png"
-                    alt=""
-                    width="210"
-                    height="297"
-                    srcset="
-                      ./vendor/PH3_UPK_1_283.png   283w,
-                      ./vendor/PH3_UPK_1_768.png   768w,
-                      ./vendor/PH3_UPK_1_1086.png 1086w,
-                      ./vendor/PH3_UPK_1_1449.png 1449w,
-                      ./vendor/PH3_UPK_1_3678.png 3678w
-                    "
-                    sizes="(max-width: 210px) 100vw, 210px"
-                  />
+                <img
+                  loading="lazy"
+                  class="alignnone zoooom"
+                  src="./vendor/PH3_UPK_1_283.png"
+                  alt=""
+                  width="210"
+                  height="297"
+                  srcset="
+                    ./vendor/PH3_UPK_1_283.png   283w,
+                    ./vendor/PH3_UPK_1_768.png   768w,
+                    ./vendor/PH3_UPK_1_1086.png 1086w,
+                    ./vendor/PH3_UPK_1_1449.png 1449w,
+                    ./vendor/PH3_UPK_1_3678.png 3678w
+                  "
+                  sizes="(max-width: 210px) 100vw, 210px"
+                />
 
-                  <img
-                    loading="lazy"
-                    class="alignnone zoooom"
-                    src="./vendor/PH3_UPK_2_283.png"
-                    alt=""
-                    width="210"
-                    height="297"
-                    srcset="
-                      ./vendor/PH3_UPK_2_283.png   283w,
-                      ./vendor/PH3_UPK_2_768.png   768w,
-                      ./vendor/PH3_UPK_2_1086.png 1086w,
-                      ./vendor/PH3_UPK_2_1449.png 1449w,
-                      ./vendor/PH3_UPK_2_3678.png 3678w
-                    "
-                    sizes="(max-width: 210px) 100vw, 210px"
-                  />
+                <img
+                  loading="lazy"
+                  class="alignnone zoooom"
+                  src="./vendor/PH3_UPK_2_283.png"
+                  alt=""
+                  width="210"
+                  height="297"
+                  srcset="
+                    ./vendor/PH3_UPK_2_283.png   283w,
+                    ./vendor/PH3_UPK_2_768.png   768w,
+                    ./vendor/PH3_UPK_2_1086.png 1086w,
+                    ./vendor/PH3_UPK_2_1449.png 1449w,
+                    ./vendor/PH3_UPK_2_3678.png 3678w
+                  "
+                  sizes="(max-width: 210px) 100vw, 210px"
+                />
+                <p><strong>Vollbildgalierie</strong></p>
 
-                </p>
-
-                <p data-wp-editing="1"></p>
+                <div class="ulap-gallery">
+                  <div class="image__image">
+                    <a
+                      href="./vendor/PH3_UPK_1_3678.png"
+                      class="js-cbox-imagezoom"
+                      title='This image is wrapped in a link with class &lt;code class="sg-code-inline"&gt;.js-cbox-imagezoom&lt;/code&gt; Bild: gettyimages'
+                    >
+                      <img
+                        src="./vendor/PH3_UPK_1_283.png"
+                        alt="Alternative Bildbeschreibung"
+                      />
+                      <span class="aural"
+                        >[Link überblendet Fenster mit einem modalen
+                        Dialogfeld]</span
+                      >
+                    </a>
+                  </div>
+                  <div class="image__image">
+                    <a
+                      href="./vendor/PH3_UPK_2_3678.png"
+                      class="js-cbox-imagezoom"
+                      title='This image is wrapped in a link with class &lt;code class="sg-code-inline"&gt;.js-cbox-imagezoom&lt;/code&gt; Bild: gettyimages'
+                    >
+                      <img
+                        src="./vendor/PH3_UPK_2_283.png"
+                        alt="Alternative Bildbeschreibung"
+                      />
+                      <span class="aural"
+                        >[Link überblendet Fenster mit einem modalen
+                        Dialogfeld]</span
+                      >
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="su-column su-column-size-1-2">
               <div class="su-column-inner su-u-clearfix su-u-trim">
                 <h2>Verfasser*innen</h2>
                 <p>
-                  <strong>BJP | Bläser Jansen Partner mit Mandaworks und Form Follows You</strong>
+                  <strong
+                    >BJP | Bläser Jansen Partner mit Mandaworks und Form Follows
+                    You</strong
+                  >
                 </p>
                 <ul>
                   <li>Hendrik Jansen BJP | Bläser Jansen Partner</li>
@@ -890,8 +657,7 @@ body:not(logged-in) .wech {display: none; }
                 ></a>
               </li>
               <li class="active" aria-current="page">
-                <a
-                  href="/beitraege/dialogrunde/runde-3/team-2/"
+                <a href="/beitraege/dialogrunde/runde-3/team-2/"
                   >Runde 3 Team 2</a
                 >
               </li>
@@ -917,11 +683,7 @@ body:not(logged-in) .wech {display: none; }
         <div id="layout-grid__area--contentfooter">
           <div id="content-footer" role="contentinfo">
             <div class="content-footer__brand"></div>
-            <a
-              class="to-top"
-              href="#top"
-              >Zum Seitenanfang</a
-            >
+            <a class="to-top" href="#top">Zum Seitenanfang</a>
 
             <div class="content-footer__links">
               <ul class="js-collapse-palm">
@@ -929,18 +691,13 @@ body:not(logged-in) .wech {display: none; }
                   <h3 class="heading js-trigger">Allgemeine Links</h3>
                   <ul>
                     <li>
-                      <a href="/impressum/"
-                        >Impressum</a
-                      >
+                      <a href="/impressum/">Impressum</a>
                     </li>
                     <li>
-                      <a href="/datenschutzerklaerung/"
-                        >Datenschutzerklärung</a
-                      >
+                      <a href="/datenschutzerklaerung/">Datenschutzerklärung</a>
                     </li>
                     <li>
-                      <a
-                        href="/barrierefreiheitserklaerung/"
+                      <a href="/barrierefreiheitserklaerung/"
                         >Digitale Barrierefreiheit</a
                       >
                     </li>
@@ -954,14 +711,10 @@ body:not(logged-in) .wech {display: none; }
                       <a href="">Startseite</a>
                     </li>
                     <li>
-                      <a href="/anlass-und-ziel"
-                        >Anlass und Ziel</a
-                      >
+                      <a href="/anlass-und-ziel">Anlass und Ziel</a>
                     </li>
                     <li>
-                      <a href="/aufgabenstellung"
-                        >Aufgabenstellung</a
-                      >
+                      <a href="/aufgabenstellung">Aufgabenstellung</a>
                     </li>
                     <li>
                       <a href="/verfahren">Verfahren</a>
@@ -977,9 +730,7 @@ body:not(logged-in) .wech {display: none; }
                       <a href="/ergebnis/">Ergebnis</a>
                     </li>
                     <li>
-                      <a href="/hinweise/">
-                        Hinweise zur Benutzung
-                      </a>
+                      <a href="/hinweise/"> Hinweise zur Benutzung </a>
                     </li>
                   </ul>
                 </li>
@@ -988,8 +739,7 @@ body:not(logged-in) .wech {display: none; }
                   <h3 class="heading js-trigger">Siegerentwurf</h3>
                   <ul>
                     <li>
-                      <a
-                        href="/beitraege/dialogrunde/runde-3/team-1/"
+                      <a href="/beitraege/dialogrunde/runde-3/team-1/"
                         >ISSS | bauchplan</a
                       >
                     </li>
@@ -1000,19 +750,13 @@ body:not(logged-in) .wech {display: none; }
                   <h3 class="heading js-trigger">Beiträge</h3>
                   <ul>
                     <li>
-                      <a href="/beitraege#dialogrunde-1"
-                        >Dialogrunde 1</a
-                      >
+                      <a href="/beitraege#dialogrunde-1">Dialogrunde 1</a>
                     </li>
                     <li>
-                      <a href="/beitraege#dialogrunde-2"
-                        >Dialogrunde 2</a
-                      >
+                      <a href="/beitraege#dialogrunde-2">Dialogrunde 2</a>
                     </li>
                     <li>
-                      <a href="/beitraege#dialogrunde-3"
-                        >Dialogrunde 3</a
-                      >
+                      <a href="/beitraege#dialogrunde-3">Dialogrunde 3</a>
                     </li>
                   </ul>
                 </li>
