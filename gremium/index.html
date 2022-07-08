@@ -65,110 +65,6 @@
 
     <link rel="apple-touch-icon" href="/vendor/favicon-180.png" />
     <link rel="msapplication-TileImage" href="/vendor/favicon-256.png" />
-    <style id="wp-custom-css">
-      .rand {
-        border: 2px solid #000 !important;
-      }
-
-      .entry-title {
-        font-weight: normal;
-      }
-
-      /* body:not(.kiekma.logged-in) .image__image:after { display: none; }
-
-body:not(.kiekma.logged-in) .image__image>img { display: none; }
-
-body:not(.kiekma.logged-in) .image__image { cursor: default !important; } 
-*/
-      /* 
-body:not(logged-in) .wech {display: none; }
-*/
-
-      .testimonial {
-        text-align: center;
-      }
-
-      .testimonial .textbox .quote {
-        font-size: 1.3em;
-        color: #e40422;
-      }
-
-      .modul-testimonial {
-        margin-left: 10%;
-        margin-right: 15%;
-      }
-
-      .modul-testimonial .textbox {
-        font-size: 0.8em;
-        border: 1px solid;
-      }
-
-      .form-submit input.submit {
-        min-height: 43px;
-        margin-bottom: 0;
-        width: auto;
-        box-shadow: none;
-        border-radius: 0px;
-        text-decoration: none;
-        padding: 10px 16px;
-        font-size: 1em;
-        line-height: 1.2;
-        display: inline-block;
-        vertical-align: top;
-        text-align: center;
-        cursor: pointer;
-        overflow: visible;
-        background-color: #fff;
-        color: #000;
-        border: 2px solid #000;
-        transition: background-color 0.2s ease-out;
-        position: relative;
-        padding-right: 20px;
-      }
-
-      .image__copyright {
-        font-size: 0.9em;
-      }
-
-      .form-submit input.submit:after {
-        background: #e40422;
-        position: absolute;
-        right: 0;
-        top: 0;
-        height: 100%;
-        line-height: 2em;
-        width: 43px;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .form-submit input.submit:after {
-        content: "\f061";
-        font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", FontAwesome;
-        font-weight: 700;
-        margin-left: 0.5em;
-        display: inline-block;
-        vertical-align: baseline;
-        color: #fff;
-        font-size: 18px;
-      }
-
-      /* #content-footer .content-footer__links>ul>li, #content-footer .content-footer__links>ul>li {
-    width: 40%;
-    margin-left: 3%;
-    max-width: 600px;
-}
-*/
-
-      .menu > ul > li {
-        width: 600px;
-      }
-
-      .gallery_preview {
-        width: 420px;
-      }
-    </style>
   </head>
 
   <body class="kiekma">
@@ -249,7 +145,6 @@ body:not(logged-in) .wech {display: none; }
                 class="service-button-overlay__overlay overlay js-overlay-container"
                 aria-modal="true"
                 hidden="hidden"
-                
               >
                 <div class="overlay__header">
                   <h2 class="heading"><span>Barrierefreiheit</span></h2>
@@ -317,7 +212,6 @@ body:not(logged-in) .wech {display: none; }
                 class="service-button-overlay__overlay overlay js-overlay-container"
                 aria-modal="true"
                 hidden="hidden"
-                
               >
                 <div class="overlay__header">
                   <h2 class="heading"><span class="aural">Suche</span></h2>
@@ -531,10 +425,11 @@ body:not(logged-in) .wech {display: none; }
           <h1 class="title entry-title">Gremium</h1>
         </div>
         <div id="layout-grid__area--maincontent">
-          <section class="modul-text_bild imagealignleft fifty">
+          <section class="modul-text_bild textbildbreit">
             <div class="image">
               <div class="image__image">
                 <img
+                  loading="lazy"
                   src="./vendor/Gremium43_800x600.png"
                   alt="Das Gremium tagt und diskutiert die Beiträge. Eine Referentin steht am Pult und berichtet über ihre Expertise."
                 />
